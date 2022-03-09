@@ -7,9 +7,10 @@ def click():
     time.sleep(0.01)
     win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0)
     
-keyboard.wait("p")
+keyboard.wait("c")
 time.sleep(2)
 while True:
     click()
-    if keyboard.is_pressed("p"):
+    
+    if keyboard.is_pressed("c"):
         break
