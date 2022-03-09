@@ -11,5 +11,5 @@ keyboard.wait("c")
 time.sleep(2)
 while True:
     click()
-    if keyboard.is_pressed("c"):
+    if keyboard.is_pressed(̈c̈):
         break
